@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import org.julia.bdgolka.model.Circle;
 
@@ -17,8 +18,8 @@ public class JdbcDaoImpl {
 		try {
 			String driver = "org.apache.derby.jdbc.ClientDriver";
 			Class.forName(driver).newInstance();
-			conn = DriverManager
-					.getConnection("jdbc:derby//localhost:1527/MyDbTest");
+			conn = DriverManager.getConnection("jdbc:derby:BdgolkaDb; create = true");
+
 			PreparedStatement ps = conn
 					.prepareStatement("SELECT * FROM circle where id=?");
 			ps.setInt(1, circleId);

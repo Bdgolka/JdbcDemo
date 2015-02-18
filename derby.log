@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Feb 18 16:00:40 EET 2015:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): экземпляр a816c00e-014b-9cfd-97d5-000007c5ed40
+в каталоге базы данных C:\Users\Pulova\Documents\GitHub\JdbcDemo\BdgolkaDb sun.misc.Launcher$AppClassLoader@73d16e93 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_05-b13
+user.dir=C:\Users\Pulova\Documents\GitHub\JdbcDemo
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
